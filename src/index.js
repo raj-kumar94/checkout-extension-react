@@ -61,7 +61,7 @@ export function App() {
     <BlockStack spacing="loose">
       <CalloutBanner title="Post-purchase extension template">
         Use this template as a starting point to build a great post-purchase
-        extension.
+        extension. Hi {window.Shopify?.Checkout?.customer?.email || 'no-email'}
       </CalloutBanner>
       <Layout
         maxInlineSize={0.95}
@@ -80,7 +80,7 @@ export function App() {
             <Heading>Post-purchase extension</Heading>
             <TextBlock>
               Here you can cross-sell other products, request a product review
-              based on a previous purchase, and much more. Testing...!
+              based on a previous purchase, and much more. Testing...!..!
             </TextBlock>
           </TextContainer>
           <Button
