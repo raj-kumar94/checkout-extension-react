@@ -18,6 +18,13 @@
   "dependencies": {
     "@shopify/post-purchase-ui-extensions": "0.10.1",
     "@shopify/post-purchase-ui-extensions-react": "0.10.1",
-    "react": "^17.0.0"
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.1",
+    "react": "^17.0.0",
+    "shopify-api-node": "^3.7.1",
+    "uuid": "^8.3.2"
   }
 }

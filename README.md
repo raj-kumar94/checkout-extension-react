@@ -25,17 +25,11 @@ Here are a few additional resources you might find helpful:
 
 ```
 shopify extension create
-ll
 cd checkout-extension-react
-ll
 shopify extension serve
-code .
-conda deactivate
-clear
 shopify extension serve
 node -v
 nvm use v14.15.0
-clear
 shopify extension serve
 npm install @shopify/checkout-ui-extensions-run
 shopify extension serve
@@ -43,3 +37,18 @@ shopify extension push
 shopify extension connect
 shopify extension push
 ```
+
+## Serve extension
+```
+shopify extension serve
+```
+
+## Run the express server to get the offers and sign changes
+```
+nodemon app.js
+```
+
+And start ngrok tunnel as well
+
+
+## Get lineItems from `inputData`
